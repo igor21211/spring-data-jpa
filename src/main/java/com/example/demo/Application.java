@@ -39,7 +39,7 @@ public class Application {
                 student.addBook(new Book("JavaCore", LocalDateTime.now().now()));
                 student.addBook(new Book("Spring", LocalDateTime.now().minusYears(2)));
 
-                StudentIdCard studentIdCard = new StudentIdCard("224344352235",student);
+                StudentIdCard studentIdCard = new StudentIdCard("22438443542235",student);
                 student.setStudentIdCard(studentIdCard);
                 studentRepository.save(student);
 

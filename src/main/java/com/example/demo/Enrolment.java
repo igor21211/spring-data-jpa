@@ -9,11 +9,11 @@ public class Enrolment {
     @EmbeddedId
     private EnrolmentId id;
     @ManyToOne
-    @MapsId("student_id")
+    @MapsId("studentId")
     @JoinColumn(name = "student_id")
     private Student student;
     @ManyToOne
-    @MapsId("course_id")
+    @MapsId("courseId")
     @JoinColumn(name = "course_id")
     private Course course;
 
